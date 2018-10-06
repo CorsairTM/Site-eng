@@ -18,6 +18,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/e809a88aae.css">
 </head>
 <body>
 <div id="app">
@@ -34,11 +36,10 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-item dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Блог</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Блог</a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Категории</a></li>
-                            <li><a href="#">Материалы</a></li>
-                            <li><a href="#"></a></li>
+                            <li><a class="dropdown-item" href="#">Категории</a></li>
+                            <li><a class="dropdown-item" href="#">Материалы</a></li>
                         </ul>
                     </li>
                 </ul>
